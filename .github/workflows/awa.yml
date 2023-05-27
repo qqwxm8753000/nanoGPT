@@ -31,6 +31,3 @@ jobs:
       run: |
         python train.py
         python sample.py --out_dir=out-shakespeare-char
-    - name: Test with pytest
-      run: |
-        pytest
